@@ -6,7 +6,7 @@ import "./Navigation.css"
 export class Navigation extends Component {
     render () {
         return(
-            <Navbar bg="dark" expand="lg">
+            <Navbar className="navBar" bg="dark" expand="lg">
             <Navbar.Toggle aria-controls="basic-navbar-nav"/>
             <Navbar.Collapse id="basic-navbar-nav">
             <Nav>

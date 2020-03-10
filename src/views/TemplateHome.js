@@ -18,7 +18,7 @@ class TemplateHome extends Component {
                             <Link to="/waiter"><button className="btn-home btn-waiter"><img className="img-fluid img-waiter" src={Waiter} alt="Waiter"/></button></Link>
                         </div>
                         <div className="col-md-6 col-sm-12 col-xs-12 chef">
-                           <Link to="/kitchen"><button className="btn-home btn-chef"><img className="img-fluid img-chef" src={Chef} alt=""/></button></Link>
+                           <Link to="/kitchen"><button className="btn-home btn-chef"><img className="img-fluid img-chef" src={Chef} alt="Chef"/></button></Link>
                         </div>
                     </div>
                 </div>
