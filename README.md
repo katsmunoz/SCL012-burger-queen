@@ -27,9 +27,31 @@ Para poder ordenar nuestras ideas, utilizamos Figma para diseñar el prototipo d
 
 Ver prototipo en [Figma]()
 
-## Testeo con Usuarios
+## Testeo con Usuarios 👥
 
-## Lighthouse
+Testo 1:
+
+https://www.loom.com/share/b52f4cfc55d54ec597c0d2d7c5a45a05
+
+### Aspectos positivos:
+
+- La interfaz es divertida y se entiende la temática de la aplicación.
+
+- Se entiende sin problemas cómo volver al Home.
+
+- El sistema de menú se parece mucho al sistema que se utiliza en los restaurantes.
+
+### Aspectos a mejorar:
+
+- Alineación de las tarjetitas de cada item del menú.
+
+- Que el nombre del item aparezca en una sola línea.
+
+- Sería bueno incluir un espacio para especificar notas de la comanda (como que la hamburguesa no lleve cebolla o que el trago no tenga azúcar).
+
+De este testeo, integramos la mayor parte del feedback para mejorar nuestra interfaz.
+
+## Lighthouse 📈
 
 ![lighthouse](readmeImg/lighthouse.jpeg)
 
@@ -39,6 +61,7 @@ Ver prototipo en [Figma]()
 - [React-bootstrap](https://react-bootstrap.github.io/)
 - [React-router-DOM](https://reacttraining.com/react-router/web/guides/quick-start)
 - [Firebase](https://firebase.google.com/)
+- [Lighthouse](https://developers.google.com/web/tools/lighthouse)
 - JSX
 - CSS
 - HTML
