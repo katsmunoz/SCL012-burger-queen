@@ -27,6 +27,8 @@ Para poder ordenar nuestras ideas, utilizamos Figma para diseñar el prototipo d
 
 Ver prototipo en [Figma]()
 
+## Testeo con Usuarios
+
 ## Lighthouse
 
 ![lighthouse](readmeImg/lighthouse.jpeg)
