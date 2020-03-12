@@ -16,7 +16,7 @@ const Order = props => (
         <p>{item.name}</p>
         <p>{item.price}</p>
         <button onClick={() => props.removeItem(item, index)} className="icon-btn">
-          <img className="icon-delete" src={Trash}/>
+          <img className="icon-delete" alt="trash" src={Trash}/>
         </button>
       </div>
     ))}
