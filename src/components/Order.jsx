@@ -1,5 +1,6 @@
-import React from "react";
-import "./Order.css";
+/* eslint-disable react/prop-types */
+import React from 'react'
+import './Order.css'
 
 const Order = props => (
   <div className="Order-detail">
@@ -11,6 +12,7 @@ const Order = props => (
       </label>
     </form>
     {props.car.map(i => (
+      // eslint-disable-next-line react/jsx-key
       <div className="order-items">
         <h4>{i.name}</h4>
         <span>
@@ -20,6 +22,6 @@ const Order = props => (
     ))}
     <input className="btn" type="submit" value="Enviar" />
   </div>
-);
+)
 
-export default Order;
+export default Order
