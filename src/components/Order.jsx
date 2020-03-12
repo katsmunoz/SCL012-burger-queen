@@ -1,6 +1,6 @@
-/* eslint-disable react/prop-types */
 import React from 'react'
 import './Order.css'
+import Trash from '../images/delete.png'
 
 const Order = props => (
   <div className="Order-detail">
@@ -11,16 +11,16 @@ const Order = props => (
         <input type="text" name="name" />
       </label>
     </form>
-    {props.car.map(i => (
-      // eslint-disable-next-line react/jsx-key
+    {props.car.map((item, index) => (
       <div className="order-items">
-        <h4>{i.name}</h4>
-        <span>
-          <h5>{i.price}</h5>
-        </span>
+        <p>{item.name}</p>
+        <p>{item.price}</p>
+        <button onClick={() => props.removeItem(item, index)} className="icon-btn">
+          <img className="icon-delete" src={Trash}/>
+        </button>
       </div>
     ))}
-    <input className="btn" type="submit" value="Enviar" />
+    <button className="btn-send">Enviar</button>
   </div>
 )
 

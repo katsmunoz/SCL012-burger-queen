@@ -1,9 +1,8 @@
-/* eslint-disable react/prop-types */
-import React, { Component } from 'react'
-import data from './data'
-import 'bootstrap/dist/css/bootstrap.min.css'
-import { Button, CardDeck, Card } from 'react-bootstrap'
-import './MenuData.css'
+import React, { Component } from "react";
+import data from "./data";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Button, CardDeck, Card } from "react-bootstrap";
+import "./MenuData.css";
 
 class MenuData extends Component {
   constructor (props) {
@@ -16,9 +15,8 @@ class MenuData extends Component {
   render () {
     return (this.props.items || []).map((item, i) => {
       return (
-        <CardDeck key={i}>
-          <Card className="Card.menu">
-            <Card.Img variant="top" src="" />
+        <CardDeck className="card-deck">
+          <Card>
             <Card.Body>
               <Card.Title key={i}>{item.name}</Card.Title>
               <Card.Text>{item.price}</Card.Text>

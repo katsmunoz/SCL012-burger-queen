@@ -1,9 +1,10 @@
-import React, { Component } from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
-import MenuData from './MenuData'
-import Data from './data'
-import { Route } from 'react-router-dom'
-import './ContainerMenu.css'
+import React, { Component } from 'react';
+ import { Container, Row, Col } from 'react-bootstrap';
+import MenuData from "./MenuData";
+import Data from "./data";
+import { Route } from "react-router-dom";
+import "./ContainerMenu.css"
+
 
 class ContainerMenu extends Component {
   render () {
